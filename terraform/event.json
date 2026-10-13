@@ -1,0 +1,14 @@
+﻿{
+  "source": "aws.guardduty",
+  "detail-type": "GuardDuty Finding",
+  "account": "123456789012",
+  "region": "ap-south-1",
+  "time": "2026-07-24T10:00:00Z",
+  "detail": {
+    "type": "Policy:IAMUser/RootCredentialUsage",
+    "severity": 2,
+    "title": "Root credentials were used",
+    "description": "The AWS root user was used to perform an API action."
+  }
+}
+

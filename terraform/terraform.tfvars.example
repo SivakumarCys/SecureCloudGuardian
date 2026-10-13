@@ -1,0 +1,10 @@
+﻿# SecureCloudGuardian example configuration
+# Copy to terraform.tfvars and customize locally.
+# Never commit the real terraform.tfvars file.
+
+aws_region = "ap-south-1"
+project_name = "SecureCloudGuardian"
+public_subnet_cidr = "10.0.1.0/24"
+private_subnet_cidr = "10.0.2.0/24"
+availability_zone = "ap-south-1a"
+email_address = "you@example.com"

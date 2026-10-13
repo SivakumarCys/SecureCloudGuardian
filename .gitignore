@@ -1,0 +1,79 @@
+﻿# ================================
+# SecureCloudGuardian
+# Public GitHub repository
+# ================================
+
+# Terraform runtime
+**/.terraform/*
+.terraform/
+
+# Terraform state - NEVER COMMIT
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Real Terraform variables
+*.tfvars
+*.tfvars.json
+
+# Allow safe example
+!*.tfvars.example
+
+# Terraform plans
+*.tfplan
+tfplan
+
+# Terraform crash files
+crash.log
+crash.*.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# AWS credentials
+.aws/
+credentials
+
+# Private keys / certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python environments
+venv/
+.venv/
+env/
+
+# Real incident evidence
+incident_records/*.json
+!incident_records/.gitkeep
+
+# Private screenshots
+docs/screenshots-private/
+
+# Generated archives
+*.zip
+
+# Generated/local response
+terraform/response.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
